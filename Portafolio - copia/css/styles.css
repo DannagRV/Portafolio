@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  /* styles.css */
+  body {
+    background-color: rgba(175, 103, 53, 0.663);
+    color: white; /* Cambiar el color del texto para que sea legible en el fondo azul */
+}
+  .actividad {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .actividad img {
+    max-width: 100%;
+  }
+  
+  .descripcion {
+    margin-top: 20px;
+  }
+  
+  .descripcion h2 {
+    font-size: 1.5rem;
+  }
+  
+  .descripcion p {
+    font-size: 1rem;
+  }
+  
+  .btn-siguiente {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .btn-siguiente:hover {
+    background-color: #005603;
+  }
+  
+  .actividad img:hover {
+    transition: transform 0.35s ease-in-out;
+    transform: scale(1.1);
+  }
+  
+  .banderas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .bandera {
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+  }
+  
+  .bandera p {
+    margin: 0;
+  }
+  
+  .bandera-azul {
+    background-color: #007bff; /* Azul */
+  }
+  
+  .bandera-verde {
+    background-color: #28a745; /* Verde */
+  }
+  
+  .bandera-roja {
+    background-color: #dc3545; /* Rojo */
+  }
+  
+  /* Agregado adicional */
+  
+  .frame {
+    border: 2px solid #ccc; /* Estilo del marco */
+    padding: 20px; /* Espacio interno del marco */
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center; /* Centra el texto dentro del contenedor */
+  }
+  
+  .container h1 {
+    font-size: 3.15rem;
+  }
+  
+  .logo,
+  .number {
+    position: absolute;
+  }
+  
+  .top-left {
+    top: 0;
+    left: 0;
+  }
+  
+  .top-right {
+    top: 0;
+    right: 0;
+  }
+  
+  .logo img,
+  .number img {
+    height: 50px; /* Altura del espacio para el logo y el número */
+    margin-left: 20px; /* Espacio entre el logo y el número */
+  }
+  
+  .photo {
+    width: 200px; /* Ancho de la foto */
+    height: 300px; /* Altura de la foto */
+    border-radius: 50%; /* Hace que la foto sea un círculo vertical */
+    overflow: hidden;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+  
+  .photo img {
+    width: 190%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Estilo para el contenedor1 */
+  .container1 {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  /* Estilo para las imágenes dentro del contenedor1 */
+  .container1 img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para el botón btn-volver */
+  .btn-volver {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Cambio de color al pasar el mouse sobre el botón */
+  .btn-volver:hover {
+    background-color: #005603; /* Color de fondo verde oscuro */
+  }
+
+  .container3 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content3 {
+    text-align: center;
+  }
+  
+  .btn-siguiente {
+    display: inline-block;
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    border: 1px solid transparent; /* Borde transparente */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn-siguiente:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón */
+}
